@@ -1,3 +1,21 @@
+import React from "react";
+import "./App.css";
+import ChatRoom from "./ChatRoom.js";
+
+function App() {
+  return (
+    <div className="App">
+      <h2>Experiment Assistant</h2>
+      <ChatRoom />
+    </div>
+  );
+}
+
+export default App;
+
+
+
+/*
 import logo from './logo.svg';
 import './App.css';
 
@@ -23,3 +41,4 @@ function App() {
 }
 
 export default App;
+*/
